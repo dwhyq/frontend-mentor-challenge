@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | E-commerce product page</title>
+  <link href="/ecommerce-product-page-main/style.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/4ef6f0f2de.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <div class="header-nav1">
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <logo>Sneakers</logo>
+        <nav class="header-links">
+          <ul class="nav-ul">
+            <a class="navLink">Collections</a>
+            <a class="navLink">Men</a>
+            <a class="navLink">Women</a>
+            <a class="navLink">About</a>
+            <a class="navLink">Contact</a>
+          </ul>
+        </nav>
+      </div>
+      <div class="dp-container">
+        <div class="cart-icon-and-display-pic">
+          <button id="cartIcon">
+            <i class="fa-solid fa-cart-shopping"></i> Cart
+          </button>
+          <div class="cartView">
+            <h5>selected items</h5>
+            <div class="cartDisplay"></div>
+          </div>
+        </div>
+        <img class="userDp" src="/ecommerce-product-page-main/images/image-avatar.png" alt="#">
+      </div>
+    </header>
+
+    <main>
+      <div class="productOne">
+        <div class="imageContainer">
+          <img class="fixed-image" src="./product-images/image-product-1.jpg" alt="Fixed Image">
+        </div>
+        <div class="productOne-thumbnails">
+          <img class="thumbnails" src="/ecommerce-product-page-main/images/image-product-1-thumbnail.jpg" alt="#" data-image="./product-images/image-product-1.jpg">
+          <img class="thumbnails" src="/ecommerce-product-page-main/images/image-product-2-thumbnail.jpg" alt="#" data-image="./product-images/image-product-2.jpg">
+          <img class="thumbnails" src="/ecommerce-product-page-main/images/image-product-3-thumbnail.jpg" alt="#" data-image="./product-images/image-product-3.jpg">
+          <img class="thumbnails" src="/ecommerce-product-page-main/images/image-product-4-thumbnail.jpg" alt="#" data-image="./product-images/image-product-4.jpg">
+        </div>
+      </div>
+      <div class="about-productOne">
+        <h3>Sneaker Company</h3>
+        <h1>Fall Limited Edition Sneakers</h1>
+        <p>
+          These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they’ll withstand everything the weather can offer.
+        </p>
+        <div class="productOne-cost-discount">
+          <h4>$125.00 <span>50%</span></h4>
+          <p>$250.00</p>
+        </div>
+        <div class="action-btns">
+          <div class="add-plus-btns">
+            <button class="minusBtn">-</button>
+            <button class="itemBuy">0</button>
+            <button class="plusBtn">+</button>
+          </div>
+          <div class="addToCart">
+            <button class="addToCartBTN">
+              <i class="fa-solid fa-cart-shopping"></i>
+              Add to cart
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+  <script src="/ecommerce-product-page-main/scripts.js"></script>
+</body>
+</html>
